@@ -1,0 +1,118 @@
+body {
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.header{
+    background-color: rgb(219, 228, 179);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 5px;
+}
+
+.icon img{
+    height: 50px;
+    width: auto;
+}
+
+ul{
+    list-style: none;
+    margin:10px;
+    padding-right: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container .nav_href{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav_href a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+.card_section{
+    margin: 50px auto;
+    align-items: center;
+
+}
+
+.all_cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    height: 500px;
+}
+
+.card_image{
+    height: auto;
+    width: 250px;
+    border-radius: 5px;
+}
+.card_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3{
+    color: #53d12d;
+    font-size: 20px;
+    text-align: center;
+}
+.card p{
+    color: gray;
+    font-size: 15px;
+}
+.card button{
+    background-color: #53d12d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.card button:hover{
+    background-color: #b5f0a3;
+}
+.card button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container .all_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.all_cards {
+    margin:20px;
+}
+
+
+footer{
+    background-color: rgb(219, 228, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+}
